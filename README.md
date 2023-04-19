@@ -19,9 +19,9 @@ De los usuarios podemos consultar o modificar los siguientes datos
 - Party (grupo) al que esta unido
 
 Rutas para MOSTRAR información de los usuarios<br />
-http://localhost:8181/api/usuarios (Para mostrar todos los usuarios)
-http://localhost:8181/api/usuarios/usuario/{usuario} (Para mostrar un usuario buscandolo por el user)
-http://localhost:8181/api/usuarios/{id} (Para mostrar un usuario buscandolo por la id)
+http://localhost:8181/api/usuarios (Para mostrar todos los usuarios)<br />
+http://localhost:8181/api/usuarios/usuario/{usuario} (Para mostrar un usuario buscandolo por el user)<br />
+http://localhost:8181/api/usuarios/{id} (Para mostrar un usuario buscandolo por la id)<br />
 http://localhost:8181/api/usuarios/party/{nombre} (Para mostrar todos los usuarios en una party)
 
 Ruta para AÑADIR un usuario<br />
@@ -42,9 +42,9 @@ De las parties podemos consultar o modificar los siguientes datos
 - Juego uqe se esta jugando en esa party
 
 Rutas para MOSTRAR información de las parties<br />
-http://localhost:8181/api/parties (Para mostrar todos las parties)
-http://localhost:8181/api/parties/nombre/{nombre} (Para mostrar una party buscandola por el nombre)
-http://localhost:8181/api/parties/{id} (Para mostrar una party buscandolo por la id)
+http://localhost:8181/api/parties (Para mostrar todos las parties)<br />
+http://localhost:8181/api/parties/nombre/{nombre} (Para mostrar una party buscandola por el nombre)<br />
+http://localhost:8181/api/parties/{id} (Para mostrar una party buscandolo por la id)<br />
 http://localhost:8181/api//parties/juego/{nombre} (Para mostrar todas las parties en las que se este jugando el juego con el nombre indicado)
 
 Ruta para AÑADIR una party<br />
@@ -66,8 +66,8 @@ De los juegos podemos consultar o modificar los siguientes datos
 - Dificultad
 
 Rutas para MOSTRAR información de los juegos<br />
-http://localhost:8181/api/games (Para mostrar todos los juegos)
-http://localhost:8181/api/games/nombre/{nombre} (Para mostrar un juego buscandolo por el nombre)
+http://localhost:8181/api/games (Para mostrar todos los juegos)<br />
+http://localhost:8181/api/games/nombre/{nombre} (Para mostrar un juego buscandolo por el nombre)<br />
 http://localhost:8181/api/games/{id} (Para mostrar un juego buscandolo por la id)
 
 Ruta para AÑADIR un juego<br />
@@ -88,8 +88,8 @@ De los mensajes podemos consultar o modificar los siguientes datos
 - Usuario que mando el mensaje
 
 Rutas para MOSTRAR información de los mensajes<br />
-http://localhost:8181/api/mensajes (Para mostrar todos los mensajes)
-http://localhost:8181/api/mensajes/{id} (Para mostrar un mensaje buscandolo por la id)
+http://localhost:8181/api/mensajes (Para mostrar todos los mensajes)<br />
+http://localhost:8181/api/mensajes/{id} (Para mostrar un mensaje buscandolo por la id)<br />
 http://localhost:8181/api/mensajes/usuario/{username} (Para mostrar todos los mensajes de un usuario)
 
 Ruta para AÑADIR un mensaje<br />
