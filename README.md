@@ -1,12 +1,12 @@
 
 README - EX01 - Prueba Técnica - LFG
 
-─────────────────────────────────────────────────────────────────────────────────────
+─────────────────────────────────────────────────
 
 En este LFG existen 4 tipos de datos principales [ Usuarios | Parties | Juegos | Mensajes ]
 Cada uno de estos datos, contiene mas datos, que serán los tienen toda la informacion a cerca de estos.
 
-─────────────────────────────────────────────────────────────────────────────────────
+─────────────────────────────────────────────────
 
 USUARIOS
 De los usuarios podemos consultar o modificar los siguientes datos
@@ -33,7 +33,7 @@ http://localhost:8181/api/usuarios/{id} (Con esta ruta podemos editar un usuario
 Ruta para BORRAR un usuario
 http://localhost:8181/api/usuarios/{id} (Con esta ruta podemos borrar un usuario con DELETE) 
 
-─────────────────────────────────────────────────────────────────────────────────────
+─────────────────────────────────────────────────
 
 PARTIES
 De las parties podemos consultar o modificar los siguientes datos
@@ -56,7 +56,7 @@ http://localhost:8181/api/parties/{id} (Con esta ruta podemos editar una party c
 Ruta para BORRAR una party
 http://localhost:8181/api/parties/{id} (Con esta ruta podemos borrar una party con DELETE) 
 
-─────────────────────────────────────────────────────────────────────────────────────
+─────────────────────────────────────────────────
 
 JUEGOS
 De los juegos podemos consultar o modificar los siguientes datos
@@ -79,7 +79,7 @@ http://localhost:8181/api/parties/{id} (Con esta ruta podemos editar un juego co
 Ruta para BORRAR un juego
 http://localhost:8181/api/games/{id} (Con esta ruta podemos borrar un juego con DELETE) 
 
-─────────────────────────────────────────────────────────────────────────────────────
+─────────────────────────────────────────────────
 
 MENSAJES
 De los mensajes podemos consultar o modificar los siguientes datos
